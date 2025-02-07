@@ -33,7 +33,7 @@ function main() {
 
     // Lendo o arquivo
     const inputFile = 'txt/arq100k.txt';
-    const outputFile = 'quicksort_JS.txt';
+    const outputFile = 'quicksort100k_JS.txt';
     
 
     try {

@@ -45,8 +45,8 @@ function main() {
     console.log(`Memória RAM: ${(os.totalmem() / (1024 ** 3)).toFixed(2)} GB\n`);
 
     // Lendo o arquivo
-    const inputFile = 'txt/arq100k.txt';
-    const outputFile = 'heapsort_JS.txt';
+    const inputFile = 'txt/arqk.txt';
+    const outputFile = 'heapsort100k_JS.txt';
 
     try {
         const data = fs.readFileSync(inputFile, 'utf8');
